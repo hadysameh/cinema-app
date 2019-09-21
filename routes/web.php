@@ -22,7 +22,9 @@ Route::get('/about','HomeController@index');
 Route::get('/{date?}','MovieController@index');
 Route::get('/details/{movie_id}','MovieController@show');
 Route::get('/tickets/{movie_id}','SeatController@index');
-
+Route::get('/tickets/test',function(){
+	return new reservedMail();
+});
 Route::post('/tickets','SeatController@store');
 
 //Route::get('/home', 'HomeController@index')->name('home');
