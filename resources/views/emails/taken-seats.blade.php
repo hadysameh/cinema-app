@@ -1,5 +1,5 @@
 @component('mail::message')
-# Introduction
+
 Dear {{$name}} <br>
 your ticket was reserved successfully <br> 
 movie: <span class="text-success">{{$seat->daySchedule->movie->movie_name}}</span> <br>

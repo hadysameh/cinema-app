@@ -86,7 +86,7 @@
             @yield('content')
         </main>
         <footer class="text-center py-3 bg-dark text-white">
-          for more details about creator <br>
+            Designed and created by Hady for more delatis  <a href="">hady's site</a> <br>
            copyright &copy 2019
         </footer>
     </div>
